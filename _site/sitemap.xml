@@ -42,6 +42,9 @@
 <loc>http://localhost:4000/3o4cosas/pages/toyPage</loc>
 </url>
 <url>
+<loc>http://localhost:4000/3o4cosas/toyPage</loc>
+</url>
+<url>
 <loc>http://localhost:4000/3o4cosas/jupyter/cs50.html</loc>
 <lastmod>2022-03-03T14:51:20-05:00</lastmod>
 </url>

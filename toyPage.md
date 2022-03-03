@@ -1,12 +1,13 @@
 ---
-title: Some showcases with NoteTheme
+title: Física
 categories: [notetheme]
 tags: [jekyll,theme,notetheme]
 maths: 1
-toc: 1
 comment: 1
 datacamp: 1
 layout: page
+css: ["about.css", "animate.css", "morphext.css"]
+js: ["morphext.min.js", "about.js"]
 ---
 
 LALALA
