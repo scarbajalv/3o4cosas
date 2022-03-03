@@ -1,0 +1,1309 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/notetheme/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/notetheme/" rel="alternate" type="text/html" /><updated>2022-03-03T14:51:25-05:00</updated><id>http://localhost:4000/notetheme/feed.xml</id><title type="html">NoteTheme</title><subtitle>You cannot remember everything.</subtitle><entry><title type="html">Shortcuts for editors</title><link href="http://localhost:4000/notetheme/shortcuts-for-editors" rel="alternate" type="text/html" title="Shortcuts for editors" /><published>2018-10-08T00:00:00-05:00</published><updated>2018-10-08T00:00:00-05:00</updated><id>http://localhost:4000/notetheme/shortcuts-for-editors</id><content type="html" xml:base="http://localhost:4000/notetheme/shortcuts-for-editors">&lt;p&gt;This post is only for editors, please read other posts.&lt;/p&gt;
+
+&lt;div id=&quot;toc&quot;&gt;
+  &lt;div class=&quot;toc-title&quot;&gt;
+    &lt;i class=&quot;material-icons mat-icon&quot;&gt;toc&lt;/i&gt;&lt;span&gt;In this post&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;div id=&quot;full&quot;&gt;
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#front-matter&quot; id=&quot;markdown-toc-front-matter&quot;&gt;Front Matter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#texts&quot; id=&quot;markdown-toc-texts&quot;&gt;Texts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#codes&quot; id=&quot;markdown-toc-codes&quot;&gt;Codes&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#insert-liquid-code&quot; id=&quot;markdown-toc-insert-liquid-code&quot;&gt;Insert liquid code&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#figures--tables--videos&quot; id=&quot;markdown-toc-figures--tables--videos&quot;&gt;Figures / Tables / Videos&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#boxes&quot; id=&quot;markdown-toc-boxes&quot;&gt;Boxes&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#hideshow&quot; id=&quot;markdown-toc-hideshow&quot;&gt;Hide/Show&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#notifications&quot; id=&quot;markdown-toc-notifications&quot;&gt;Notifications&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#pull-quotes&quot; id=&quot;markdown-toc-pull-quotes&quot;&gt;Pull quotes&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#summarization-box&quot; id=&quot;markdown-toc-summarization-box&quot;&gt;Summarization box&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#theorem-style&quot; id=&quot;markdown-toc-theorem-style&quot;&gt;Theorem style&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#important-boxes&quot; id=&quot;markdown-toc-important-boxes&quot;&gt;Important boxes&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#others&quot; id=&quot;markdown-toc-others&quot;&gt;Others&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#add-toc&quot; id=&quot;markdown-toc-add-toc&quot;&gt;Add toc&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#columns-for-lists&quot; id=&quot;markdown-toc-columns-for-lists&quot;&gt;Columns for lists&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#side-by-side&quot; id=&quot;markdown-toc-side-by-side&quot;&gt;Side by side&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#links&quot; id=&quot;markdown-toc-links&quot;&gt;Links&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#steps&quot; id=&quot;markdown-toc-steps&quot;&gt;Steps&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;front-matter&quot;&gt;Front Matter&lt;/h2&gt;
+
+&lt;p&gt;There are some already-defined components on NoteTheme that you could use (If you don’t want to use something, &lt;strong&gt;remember to REMOVE it&lt;/strong&gt;)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;maths: 1&lt;/code&gt; add this if you wanna use mathematical expression in the post.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;toc: 1&lt;/code&gt; if you wanna display table of contents on the left sidebar&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;comment: 1&lt;/code&gt; if you wanna use disqus comment system for this post&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;datacamp: 1&lt;/code&gt; if you wanna use datacamp light&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;categories: [notetheme,jekyll]&lt;/code&gt; add category you want&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tags: [notetheme,jekyll,code]&lt;/code&gt; add tag you want&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;date: 2018-08-21&lt;/code&gt; if you update the post, write the updated date&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;snippet: 1&lt;/code&gt; if you want to pin this post to the Snippets section.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bigimg&lt;/code&gt;: background photo of the post (showing on shared post on facebook)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;texts&quot;&gt;Texts&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;New&lt;/strong&gt; badge: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;new /&amp;gt;&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Update&lt;/strong&gt; bagge: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;update /&amp;gt;&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Keyboard&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;kbd&amp;gt;Ctrl&amp;lt;/kbd&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;codes&quot;&gt;Codes&lt;/h2&gt;
+
+&lt;h3 id=&quot;insert-liquid-code&quot;&gt;Insert liquid code&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If you wanna add tag &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{% this %}&lt;/code&gt;, use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{{&quot;{% this &quot;}}%}&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;If you like this &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{{ this }}&lt;/code&gt;, use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{{&quot;{{ this &quot;}}}}&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;The rule&lt;/strong&gt;: use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{{&quot;&lt;/code&gt; before the key-word and end with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;}}&lt;/code&gt; before the end of key-word.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;An easier way&lt;/strong&gt;: use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{% raw %}&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{% endraw %}&lt;/code&gt; around the key-word. These two commands are also used for a block of codes,&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;~~~ {% raw %}{% for %}
+// line of codes
+{% end for %}{% endraw %} ~~~
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;p&gt;&lt;strong&gt;Tips&lt;/strong&gt;: For a beautiful display, put &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{% raw %}&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{% endraw %}&lt;/code&gt; exactly like the above code.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;figures--tables--videos&quot;&gt;Figures / Tables / Videos&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Normal way&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![](/link/to/figure/){:.w-500 .no-border}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Inline figures&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% include img-inline.html content=&quot;/link/to/figure/&quot; %}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Youtube video&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% include youtube.html content=&quot;wIsK4kQTrIg&quot; size=&quot;5&quot; %}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;boxes&quot;&gt;Boxes&lt;/h2&gt;
+
+&lt;h3 id=&quot;hideshow&quot;&gt;Hide/Show&lt;/h3&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;collapsible&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-collapsible=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;accordion&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;collapsible-header&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;i&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;material-icons&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;face&lt;span class=&quot;nt&quot;&gt;&amp;lt;/i&amp;gt;&lt;/span&gt;
+Title
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;collapsible-body&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+Content
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;notifications&quot;&gt;Notifications&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Info&lt;/p&gt;
+
+    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;thi-tip&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;i&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;material-icons mat-icon&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;info&lt;span class=&quot;nt&quot;&gt;&amp;lt;/i&amp;gt;&lt;/span&gt;
+content
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Error&lt;/p&gt;
+
+    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;thi-warning&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;i&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;material-icons mat-icon&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;error&lt;span class=&quot;nt&quot;&gt;&amp;lt;/i&amp;gt;&lt;/span&gt;
+content
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;pull-quotes&quot;&gt;Pull quotes&lt;/h3&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;post-more-info&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+The content of extra info of the post.
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;summarization-box&quot;&gt;Summarization box&lt;/h3&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;fieldset&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;field-set&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;legend&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;leg-title&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Title&lt;span class=&quot;nt&quot;&gt;&amp;lt;/legend&amp;gt;&lt;/span&gt;
+Content
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/fieldset&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;theorem-style&quot;&gt;Theorem style&lt;/h3&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;thi-box&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;box-title&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+**Title**
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;box-content&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+Content
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;important-boxes&quot;&gt;Important boxes&lt;/h3&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;p-mark&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+Content
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;others&quot;&gt;Others&lt;/h2&gt;
+
+&lt;h3 id=&quot;add-toc&quot;&gt;Add toc&lt;/h3&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% include toc.html %}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;columns-for-lists&quot;&gt;Columns for lists&lt;/h3&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;thi-columns&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+- item 1
+- item 2
+- item 3
+- item 4
+- item 5
+- item 6
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;side-by-side&quot;&gt;Side by side&lt;/h3&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;row d-flex&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;col s12 l6&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+This is the code
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;col s12 l6&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+This is the result
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;links&quot;&gt;Links&lt;/h3&gt;
+
+&lt;p&gt;See again&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;see-again&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;i&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;material-icons&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;settings_backup_restore&lt;span class=&quot;nt&quot;&gt;&amp;lt;/i&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+Content
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Read-more link&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% include more.html content=&quot;[Welcome to Math2IT](http://math2it.com).&quot; %}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Download&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% include download.html content=&quot;[Download text](download link).&quot; %}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;steps&quot;&gt;Steps&lt;/h3&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt;  &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;thi-step&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;step&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;step-number&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;step-content&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+Content in step 1.
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;step&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;step-number&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;step-content&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+Content in step 2
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="it" /><category term="jekyll" /><category term="notetheme" /><summary type="html">This post is only for editors, please read other posts.</summary></entry><entry><title type="html">How to install notetheme</title><link href="http://localhost:4000/notetheme/how-to-install-notetheme" rel="alternate" type="text/html" title="How to install notetheme" /><published>2018-08-17T00:00:00-05:00</published><updated>2018-08-17T00:00:00-05:00</updated><id>http://localhost:4000/notetheme/how-to-install-notetheme</id><content type="html" xml:base="http://localhost:4000/notetheme/how-to-install-notetheme">&lt;p&gt;In this tutorial, I suppose that you are new to &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt; and &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;, just follow the ones you need and don’t forget to leave a comment below.&lt;/p&gt;
+
+&lt;p class=&quot;thi-tip&quot;&gt;&lt;i class=&quot;material-icons mat-icon&quot;&gt;info&lt;/i&gt;I’m not a native English speaker, please ignore my bad expressions.&lt;/p&gt;
+
+&lt;div id=&quot;toc&quot;&gt;
+  &lt;div class=&quot;toc-title&quot;&gt;
+    &lt;i class=&quot;material-icons mat-icon&quot;&gt;toc&lt;/i&gt;&lt;span&gt;In this post&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;div id=&quot;full&quot;&gt;
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#how-to-create-a-github-page&quot; id=&quot;markdown-toc-how-to-create-a-github-page&quot;&gt;How to create a Github Page?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#how-to-apply-notetheme&quot; id=&quot;markdown-toc-how-to-apply-notetheme&quot;&gt;How to apply notetheme?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#get-some-errors&quot; id=&quot;markdown-toc-get-some-errors&quot;&gt;Get some errors?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;how-to-create-a-github-page&quot;&gt;How to create a Github Page?&lt;/h2&gt;
+
+&lt;p&gt;In the case you don’t have any Github Page, follow following rules, otherwise please step to next steps. &lt;strong&gt;For Vietnameses&lt;/strong&gt;, please read &lt;a href=&quot;https://math2it.com/tao-mot-trang-web-jekyll-tren-localhost/&quot;&gt;this article&lt;/a&gt;.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/join?source=header-home&quot;&gt;Create&lt;/a&gt; a Github account, don’t forget to verify your email before loging in. I suppose that you signed up with name &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dinhanhthi&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Login to your Github account.&lt;/li&gt;
+  &lt;li&gt;Create a new repository by clicking &lt;strong&gt;New&lt;/strong&gt; on the right side of &lt;em&gt;Repositories&lt;/em&gt; section and naming your repo with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;your-account&amp;gt;.github.io&lt;/code&gt;. For example, my Github account is “&lt;em&gt;dinhanhthi&lt;/em&gt;”, so I name this repo “&lt;em&gt;dinhanhthi.github.io&lt;/em&gt;”. We need to name the repo like this because your website will have an address like &lt;strong&gt;https://&amp;lt;your-account&amp;gt;.github.io&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Basically, you now have a place where you can put your website, you can choose either a built-in theme from Github or an external theme.
+    &lt;ul&gt;
+      &lt;li&gt;If you wanna apply &lt;strong&gt;&lt;a href=&quot;https://github.com/dinhanhthi/notetheme&quot;&gt;notetheme&lt;/a&gt;&lt;/strong&gt; (or &lt;a href=&quot;http://jekyllthemes.org/&quot;&gt;other external theme&lt;/a&gt;), please step to next section (&lt;a href=&quot;#how-to-apply-notetheme&quot;&gt;How to apply notetheme&lt;/a&gt;) and ignore following steps in this section.&lt;/li&gt;
+      &lt;li&gt;If you wanna create immediately a buit-in theme from Github, please continue to step 5.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;On your repo on github, click on tab &lt;strong&gt;Settings&lt;/strong&gt;, on the left hand side, choose tab &lt;strong&gt;Options&lt;/strong&gt; (default) and then go to section &lt;strong&gt;Github Pages&lt;/strong&gt;, click on &lt;strong&gt;Choose a theme&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Choose a theme you like and then click on &lt;strong&gt;Select theme&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;A new page appears, write something on &lt;strong&gt;Commit changes&lt;/strong&gt; and then click on &lt;strong&gt;Commit changes&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Done, now you have a page, check it out at &lt;strong&gt;https://&amp;lt;your-account&amp;gt;.github.io&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p class=&quot;thi-tip&quot;&gt;&lt;i class=&quot;material-icons mat-icon&quot;&gt;info&lt;/i&gt;Don’t worry if you followed step 5-8 and you wanna apply other themes, just keep going to next section.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-apply-notetheme&quot;&gt;How to apply notetheme?&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Download and install &lt;strong&gt;&lt;a href=&quot;https://desktop.github.com/&quot;&gt;Github Client&lt;/a&gt;&lt;/strong&gt; (GC). GC helps you “upload” changes from local host (on your own computer) to your remote (on Github server).&lt;/li&gt;
+  &lt;li&gt;Login to GC with the account created in step 1.&lt;/li&gt;
+  &lt;li&gt;Clone the repo created in step 3 of previous section to your local computer:
+    &lt;ol&gt;
+      &lt;li&gt;Come back to the repo’s directory, click on &lt;strong&gt;Set up in Desktop&lt;/strong&gt;, a popup appears to ask you “&lt;em&gt;Open Github Desktop?&lt;/em&gt;”, choose &lt;strong&gt;Open Github Desktop&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;This will open GC on your computer, click on button &lt;strong&gt;Clone&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;Choose the location where you save your repo on your computer. A folder whose name is &lt;strong&gt;&amp;lt;your-account&amp;gt;.github.io&lt;/strong&gt; will be created.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;From this step, you will apply a theme &lt;a href=&quot;http://jekyllthemes.org&quot;&gt;downloaded from the internet&lt;/a&gt; for your Github page. In this case, you will apply &lt;strong&gt;&lt;a href=&quot;https://github.com/dinhanhthi/notetheme&quot;&gt;notetheme&lt;/a&gt;&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Download &lt;a href=&quot;https://github.com/dinhanhthi/notetheme&quot;&gt;notetheme&lt;/a&gt; to your local computer (a file .zip)&lt;/li&gt;
+  &lt;li&gt;Delete all files and folders in folder &lt;strong&gt;&amp;lt;your-account&amp;gt;.github.io&lt;/strong&gt; created in step 3.3.&lt;/li&gt;
+  &lt;li&gt;Extract all files and folders from file .zip in step 5 to folder &lt;strong&gt;&amp;lt;your-account&amp;gt;.github.io&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Open file &lt;strong&gt;_config.yml&lt;/strong&gt; and change some fields in this file
+    &lt;ol&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;title&lt;/code&gt;: your website’s name&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;description&lt;/code&gt;: your website’s description&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;baseurl&lt;/code&gt;: leave blank (i.e., &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;&quot;&lt;/code&gt;)&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;url&lt;/code&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;your-account&amp;gt;.github.io&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;paginate&lt;/code&gt;: number of posts on each page (default is 28)&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;banner&lt;/code&gt;: directory to your website’s banner&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;favicon&lt;/code&gt;: directory to your website’s favicon (icon appears on the left on browser’s tab)&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;user&lt;/code&gt;: change all your personal information (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;name&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;email&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;website&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;avatar&lt;/code&gt;,…)&lt;/li&gt;
+      &lt;li&gt;Save and close &lt;strong&gt;_config.yml&lt;/strong&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Open Github Desktop to see the changes
+    &lt;ol&gt;
+      &lt;li&gt;Write something on field commit&lt;/li&gt;
+      &lt;li&gt;Click on &lt;strong&gt;Commit to master&lt;/strong&gt; and then &lt;strong&gt;Publish branch&lt;/strong&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;All done! Go to &lt;strong&gt;https://&amp;lt;your-account&amp;gt;.github.io&lt;/strong&gt; to see the changes, you may wait a little minutes to get the changes.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;get-some-errors&quot;&gt;Get some errors?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If you have some unexpected errors, please tell me on the comment section below.&lt;/li&gt;
+  &lt;li&gt;If you wanna config more on this theme, please read &lt;a href=&quot;/notetheme/how-to-use-notetheme&quot;&gt;How to use notetheme&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;If you find something wrong on this post, please tell me to fix them.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thank you and good luck.&lt;/p&gt;</content><author><name></name></author><category term="notetheme" /><category term="notetheme" /><category term="jekyll" /><category term="theme" /><summary type="html">In this tutorial, I suppose that you are new to Github Pages and Jekyll, just follow the ones you need and don’t forget to leave a comment below.</summary></entry><entry><title type="html">How to use NoteTheme</title><link href="http://localhost:4000/notetheme/how-to-use-notetheme" rel="alternate" type="text/html" title="How to use NoteTheme" /><published>2018-08-17T00:00:00-05:00</published><updated>2018-08-17T00:00:00-05:00</updated><id>http://localhost:4000/notetheme/how-to-use-notetheme</id><content type="html" xml:base="http://localhost:4000/notetheme/how-to-use-notetheme">&lt;p&gt;In this tutorial, I suppose that you have already &lt;a href=&quot;/notetheme/how-to-install-notetheme&quot;&gt;installed notetheme&lt;/a&gt;, just follow the ones you need and don’t forget to leave a comment below.&lt;/p&gt;
+
+&lt;p class=&quot;thi-tip&quot;&gt;&lt;i class=&quot;material-icons mat-icon&quot;&gt;info&lt;/i&gt;I’m not a native English speaker, please ignore my bad expressions.&lt;/p&gt;
+
+&lt;div id=&quot;toc&quot;&gt;
+  &lt;div class=&quot;toc-title&quot;&gt;
+    &lt;i class=&quot;material-icons mat-icon&quot;&gt;toc&lt;/i&gt;&lt;span&gt;In this post&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;div id=&quot;full&quot;&gt;
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#front-matter&quot; id=&quot;markdown-toc-front-matter&quot;&gt;Front Matter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#insert-codes&quot; id=&quot;markdown-toc-insert-codes&quot;&gt;Insert codes&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#syntax-highlighting&quot; id=&quot;markdown-toc-syntax-highlighting&quot;&gt;Syntax highlighting&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#insert-liquid-code&quot; id=&quot;markdown-toc-insert-liquid-code&quot;&gt;Insert liquid code&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#keyboard&quot; id=&quot;markdown-toc-keyboard&quot;&gt;Keyboard&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#insert-datacamp-rpython-code-environment&quot; id=&quot;markdown-toc-insert-datacamp-rpython-code-environment&quot;&gt;Insert DataCamp R/Python code environment&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#insert-figure&quot; id=&quot;markdown-toc-insert-figure&quot;&gt;Insert figure&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#insert-in-a-normal-way&quot; id=&quot;markdown-toc-insert-in-a-normal-way&quot;&gt;Insert in a normal way&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#insert-an-inline-figure&quot; id=&quot;markdown-toc-insert-an-inline-figure&quot;&gt;Insert an inline figure&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#insert-an-video-from-youtube&quot; id=&quot;markdown-toc-insert-an-video-from-youtube&quot;&gt;Insert an video from Youtube&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#for-writing-posts&quot; id=&quot;markdown-toc-for-writing-posts&quot;&gt;For writing posts&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#remove-heading-numbering&quot; id=&quot;markdown-toc-remove-heading-numbering&quot;&gt;Remove heading numbering&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#manually-assign-an-id-for-a-heading&quot; id=&quot;markdown-toc-manually-assign-an-id-for-a-heading&quot;&gt;Manually assign an id for a heading&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#insert-toc-table-of-contents&quot; id=&quot;markdown-toc-insert-toc-table-of-contents&quot;&gt;Insert toc (table of contents)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#insert-heading-only-on-toc-not-display-it-on-the-post&quot; id=&quot;markdown-toc-insert-heading-only-on-toc-not-display-it-on-the-post&quot;&gt;Insert heading only on toc (not display it on the post)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#make-columns-for-a-list&quot; id=&quot;markdown-toc-make-columns-for-a-list&quot;&gt;Make columns for a list&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#make-side-by-side-code-and-result&quot; id=&quot;markdown-toc-make-side-by-side-code-and-result&quot;&gt;Make side-by-side code and result&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#insert-a-read-more-link&quot; id=&quot;markdown-toc-insert-a-read-more-link&quot;&gt;Insert a read-more link&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#insert-steps&quot; id=&quot;markdown-toc-insert-steps&quot;&gt;Insert steps&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#mathematical-expressions&quot; id=&quot;markdown-toc-mathematical-expressions&quot;&gt;Mathematical expressions&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#boxes&quot; id=&quot;markdown-toc-boxes&quot;&gt;Boxes&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#theorem-boxes&quot; id=&quot;markdown-toc-theorem-boxes&quot;&gt;Theorem boxes&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#notification-boxes&quot; id=&quot;markdown-toc-notification-boxes&quot;&gt;Notification boxes&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#insert-hideshow-box&quot; id=&quot;markdown-toc-insert-hideshow-box&quot;&gt;Insert hide/show box&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#insert-blockquote&quot; id=&quot;markdown-toc-insert-blockquote&quot;&gt;Insert blockquote&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#insert-resume-of-the-post&quot; id=&quot;markdown-toc-insert-resume-of-the-post&quot;&gt;Insert resume of the post&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#cat-tag&quot; id=&quot;markdown-toc-cat-tag&quot;&gt;Categories and tags&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#use-it&quot; id=&quot;markdown-toc-use-it&quot;&gt;Use it&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#create-a-new-category&quot; id=&quot;markdown-toc-create-a-new-category&quot;&gt;Create a new category&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#already-defined-tags--categories&quot; id=&quot;markdown-toc-already-defined-tags--categories&quot;&gt;Already-defined tags / categories&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;front-matter&quot;&gt;Front Matter&lt;/h2&gt;
+
+&lt;p&gt;Begin of each post, you need to be careful to choose the right &lt;a href=&quot;https://jekyllrb.com/docs/frontmatter/&quot;&gt;front matter&lt;/a&gt; for that post. What’s front matter? Something like this&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+layout: post
+title: How to use NoteTheme?
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;There are some already-defined components on NoteTheme that you could use (If you don’t want to use something, &lt;strong&gt;remember to REMOVE it&lt;/strong&gt;)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;maths: 1&lt;/code&gt; add this if you wanna use mathematical expression in the post.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;toc: 1&lt;/code&gt; if you wanna display table of contents on the left sidebar&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;comment: 1&lt;/code&gt; if you wanna use disqus comment system for this post&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;datacamp: 1&lt;/code&gt; if you wanna use datacamp light&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;categories: [notetheme,jekyll]&lt;/code&gt; add category you want&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tags: [notetheme,jekyll,code]&lt;/code&gt; add tag you want&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;date: 2018-08-21&lt;/code&gt; if you update the post, write the updated date&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;insert-codes&quot;&gt;Insert codes&lt;/h2&gt;
+
+&lt;h3 id=&quot;syntax-highlighting&quot;&gt;Syntax highlighting&lt;/h3&gt;
+
+&lt;div class=&quot;row d-flex&quot;&gt;
+  &lt;div class=&quot;col s12 l6&quot;&gt;
+
+    &lt;p&gt;You can insert any block of code you want with a syntax highlight effect like below&lt;/p&gt;
+
+    &lt;p&gt;Available languages : &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ruby&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;python&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;c&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;matlab&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;latex&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;html&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;css&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;javascript&lt;/code&gt;.&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% highlight ruby %}
+
+{% endhighlight %}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col s12 l6&quot;&gt;
+    &lt;p&gt;For example, &lt;strong&gt;Python&lt;/strong&gt; with &lt;strong&gt;line numbering&lt;/strong&gt;,&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% highlight python linenos %}
+
+{% endhighlight %}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row d-flex&quot;&gt;
+  &lt;div class=&quot;col s12 l6&quot;&gt;
+    &lt;p&gt;or something appears in the command line window like this&lt;/p&gt;
+    &lt;div class=&quot;terminal&quot;&gt;
+      &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$ sudo apt-get update&lt;/code&gt;&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col s12 l6&quot;&gt;
+    &lt;p&gt;by using&lt;/p&gt;
+    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;terminal&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+`$ sudo apt-get update`
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;insert-liquid-code&quot;&gt;Insert liquid code&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If you wanna add tag &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{% this %}&lt;/code&gt;, use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{{&quot;{% this &quot;}}%}&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;If you like this &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{{ this }}&lt;/code&gt;, use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{{&quot;{{ this &quot;}}}}&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;The rule&lt;/strong&gt;: use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{{&quot;&lt;/code&gt; before the key-word and end with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;}}&lt;/code&gt; before the end of key-word.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;An easier way&lt;/strong&gt;: use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{% raw %}&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{% endraw %}&lt;/code&gt; around the key-word. These two commands are also used for a block of codes,&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  ~~~ {% raw %}{% for %}
+  // các dòng codes
+  {% end for %}{% endraw %} ~~~
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;p&gt;&lt;strong&gt;Tips&lt;/strong&gt;: For a beautiful display, put &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{% raw %}&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{% endraw %}&lt;/code&gt; exactly like the above code.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;keyboard&quot;&gt;Keyboard&lt;/h3&gt;
+
+&lt;p&gt;You can also insert a keyboard like this &lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;B&lt;/kbd&gt;, just use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;kbd&amp;gt;Ctrl&amp;lt;/kbd&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;insert-datacamp-rpython-code-environment&quot;&gt;Insert DataCamp R/Python code environment&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;In sert in &lt;strong&gt;Front matter&lt;/strong&gt; of the post you wanna insert DataCamp Light: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;datacamp: 1&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/datacamp/datacamp-light&quot;&gt;Read more about datacamp light&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;mt-2 mb-2&quot; data-datacamp-exercise=&quot;&quot; data-lang=&quot;r&quot;&gt;
+      &lt;code data-type=&quot;pre-exercise-code&quot;&gt;
+          # This will get executed each time the exercise gets initialized
+          b = 6
+      &lt;/code&gt;
+      &lt;code data-type=&quot;sample-code&quot;&gt;
+          # Create a variable a, equal to 5
+          # Print out a
+      &lt;/code&gt;
+      &lt;code data-type=&quot;solution&quot;&gt;
+          # Create a variable a, equal to 5
+          a &amp;lt;- 5
+	
+          # Print out a
+          print(a)
+      &lt;/code&gt;
+      &lt;code data-type=&quot;sct&quot;&gt;
+          test_object(&quot;a&quot;)
+          test_function(&quot;print&quot;)
+          success_msg(&quot;Great job!&quot;)
+      &lt;/code&gt;
+      &lt;div data-type=&quot;hint&quot;&gt;Use the assignment operator (&lt;code&gt;&amp;lt;-&lt;/code&gt;) to create the variable &lt;code&gt;a&lt;/code&gt;.&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Block of codes&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;mt-2 mb-2&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-datacamp-exercise&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-lang=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;r&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;code&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;pre-exercise-code&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+          # This will get executed each time the exercise gets initialized
+          b = 6
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;/code&amp;gt;&lt;/span&gt;
+
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;code&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;sample-code&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+          # Create a variable a, equal to 5
+          # Print out a
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;/code&amp;gt;&lt;/span&gt;
+
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;code&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;solution&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+          # Create a variable a, equal to 5
+          a &lt;span class=&quot;nt&quot;&gt;&amp;lt;-&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;5&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;#&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;Print&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;out&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;a&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;err&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;code&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;sct&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+          test_object(&quot;a&quot;)
+          test_function(&quot;print&quot;)
+          success_msg(&quot;Great job!&quot;)
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;/code&amp;gt;&lt;/span&gt;
+
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;hint&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Use the assignment operator (&lt;span class=&quot;nt&quot;&gt;&amp;lt;code&amp;gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;) to create the variable &lt;span class=&quot;nt&quot;&gt;&amp;lt;code&amp;gt;&lt;/span&gt;a&lt;span class=&quot;nt&quot;&gt;&amp;lt;/code&amp;gt;&lt;/span&gt;.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Explanation&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;data-lang=&quot;r&quot;&lt;/code&gt;: language to choose, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;r&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;python&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pre-exercise-code&lt;/code&gt;: load before executing.&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sample-code&lt;/code&gt;: These will appear in the text editor (left side)&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;solution&lt;/code&gt;: The solution of the exercise&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sct&lt;/code&gt;: Check and give the results, see more for &lt;a href=&quot;https://github.com/datacamp/testwhat&quot;&gt;R&lt;/a&gt; and &lt;a href=&quot;https://github.com/datacamp/pythonwhat&quot;&gt;python&lt;/a&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;insert-figure&quot;&gt;Insert figure&lt;/h2&gt;
+
+&lt;h3 id=&quot;insert-in-a-normal-way&quot;&gt;Insert in a normal way&lt;/h3&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![](/link/to/figure/){:.w-500 .no-border}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;thi-colums&quot;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;no-border&lt;/code&gt;: remove the border around figure&lt;/li&gt;
+    &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;w-300&lt;/code&gt;: reduce the size of image to maximum &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;300px&lt;/code&gt; (if the screen’s maximum size is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;500px&lt;/code&gt;, the figure’s size will be &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;100%&lt;/code&gt; the size of the screen). You can change the number &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;3&lt;/code&gt; in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;300&lt;/code&gt; by other numbers &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2,4,5,6,7,8,10&lt;/code&gt; or something like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;w-150&lt;/code&gt;.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;insert-an-inline-figure&quot;&gt;Insert an inline figure&lt;/h3&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% include img-inline.html content=&quot;/link/to/figure/&quot; %}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;insert-an-video-from-youtube&quot;&gt;Insert an video from Youtube&lt;/h2&gt;
+
+&lt;p&gt;Determine the youtube video’s url, like this&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;https://www.youtube.com/watch?v=wIsK4kQTrIg
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Choose &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;wIsK4kQTrIg&lt;/code&gt; and put it inside below code&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% include youtube.html content=&quot;wIsK4kQTrIg&quot; size=&quot;5&quot; %}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;In that, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;5&lt;/code&gt; represents the percent your youtube container width in comparison with the page’s width, for example, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;5&lt;/code&gt; means “50%”. You can choose any integer number between &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;3&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;10&lt;/code&gt;. This size is only available on a wide screen (min width is 993px), when the screen is smaller than 993px, the width becomes automatically 100% of page width.&lt;/p&gt;
+
+&lt;h2 id=&quot;for-writing-posts&quot;&gt;For writing posts&lt;/h2&gt;
+
+&lt;h3 id=&quot;remove-heading-numbering&quot;&gt;Remove heading numbering&lt;/h3&gt;
+
+&lt;p&gt;If you don’t want display number before some heading, just put BEFORE this heading &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{.nocount}&lt;/code&gt;, for example,&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{:.nocount}
+## Heading without numbering
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;If you wanna use multiple classes, separate them by space.&lt;/p&gt;
+
+&lt;h3 id=&quot;manually-assign-an-id-for-a-heading&quot;&gt;Manually assign an id for a heading&lt;/h3&gt;
+
+&lt;p&gt;Indert &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{:#your-id}&lt;/code&gt; before this heading, for instance,&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{:#your-id}
+## Heading
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;If you wanna use it,&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[Caption]({{ post.url }}#your-id)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;insert-toc-table-of-contents&quot;&gt;Insert toc (table of contents)&lt;/h3&gt;
+
+&lt;p&gt;Insert this line&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% include toc.html %}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;insert-heading-only-on-toc-not-display-it-on-the-post&quot;&gt;Insert heading only on toc (not display it on the post)&lt;/h3&gt;
+
+&lt;p&gt;Use the class &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;notdisplay&lt;/code&gt;,&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{:.notdisplay}
+# Hidden deading
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;make-columns-for-a-list&quot;&gt;Make columns for a list&lt;/h3&gt;
+
+&lt;p&gt;Put the list inside a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;div&amp;gt;&lt;/code&gt; tag like,&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;thi-columns&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+- item 1
+- item 2
+- item 3
+- item 4
+- item 5
+- item 6
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Results,&lt;/p&gt;
+
+&lt;div class=&quot;thi-columns&quot;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;item 1&lt;/li&gt;
+    &lt;li&gt;item 2&lt;/li&gt;
+    &lt;li&gt;item 3&lt;/li&gt;
+    &lt;li&gt;item 4&lt;/li&gt;
+    &lt;li&gt;item 5&lt;/li&gt;
+    &lt;li&gt;item 6&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;make-side-by-side-code-and-result&quot;&gt;Make side-by-side code and result&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;row d-flex&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;col s12 l6&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+~~~
+This is the code
+~~~
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;col s12 l6&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+~~~
+This is the result
+~~~
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;gives&lt;/p&gt;
+
+&lt;div class=&quot;row d-flex&quot;&gt;
+  &lt;div class=&quot;col s12 l6&quot;&gt;
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;This is the code
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col s12 l6&quot;&gt;
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;This is the result
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;You can change the value of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;5&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;6&lt;/code&gt; by other numbers depending on the ratio between their size (their sum must be equal to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;11&lt;/code&gt;). Read more on the &lt;a href=&quot;http://next.materializecss.com/grid&quot;&gt;grid of materialize&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;insert-a-read-more-link&quot;&gt;Insert a read-more link&lt;/h3&gt;
+
+&lt;div class=&quot;row d-flex&quot;&gt;
+  &lt;div class=&quot;col s12 l6&quot;&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% include more.html content=&quot;[Welcome to Math2IT](http://math2it.com).&quot; %}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+  &lt;/div&gt;
+  &lt;div class=&quot;col s12 l6&quot;&gt;
+
+    &lt;div class=&quot;thi-more&quot;&gt;
+	&lt;i class=&quot;material-icons&quot;&gt;keyboard_arrow_right&lt;/i&gt;
+	&lt;a href=&quot;http://math2it.com&quot;&gt;Welcome to Math2IT&lt;/a&gt;.
+&lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;insert-steps&quot;&gt;Insert steps&lt;/h3&gt;
+
+&lt;div class=&quot;row d-flex&quot;&gt;
+  &lt;div class=&quot;col s12 l6&quot;&gt;
+
+    &lt;p&gt;If you want something like this,&lt;/p&gt;
+
+    &lt;div class=&quot;thi-step&quot;&gt;
+&lt;div class=&quot;step&quot;&gt;
+&lt;div class=&quot;step-number&quot;&gt;
+&lt;/div&gt;
+&lt;div class=&quot;step-content&quot;&gt;
+          &lt;p&gt;Content in step 1.&lt;/p&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;step&quot;&gt;
+&lt;div class=&quot;step-number&quot;&gt;
+&lt;/div&gt;
+&lt;div class=&quot;step-content&quot;&gt;
+          &lt;p&gt;Content in step 2&lt;/p&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+  &lt;/div&gt;
+  &lt;div class=&quot;col s12 l6&quot;&gt;
+
+    &lt;p&gt;Use below codes,&lt;/p&gt;
+
+    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt;  &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;thi-step&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;step&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;step-number&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;step-content&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+Content in step 1.
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;step&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;step-number&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;step-content&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+Content in step 2
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;mathematical-expressions&quot;&gt;Mathematical expressions&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Inline math, use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$math-expression$&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Block of math, use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$$math block$$&lt;/code&gt; or&lt;/p&gt;
+
+    &lt;div class=&quot;language-latex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;
+  x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;n &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;n &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; z&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;n
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;If you wanna insert some special characters, you must put &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\&lt;/code&gt; before this character, for instance, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\\{ 1,2,3 \\}&lt;/code&gt; gives $\{ 1m2,3 \}$&lt;/li&gt;
+  &lt;li&gt;If you type inline maths which contain chatacters &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_&lt;/code&gt;, you must add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\&lt;/code&gt; before each of them, for example, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a\_1&lt;/code&gt; give $a_1$.&lt;/li&gt;
+  &lt;li&gt;Don’t use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;||&lt;/code&gt; for absolute values, let’s use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\vert \vert&lt;/code&gt; instead.&lt;/li&gt;
+  &lt;li&gt;Don’t use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\left\| \right\|&lt;/code&gt; for norms, use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\Vert \Vert&lt;/code&gt; instead.&lt;/li&gt;
+  &lt;li&gt;Don’t use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*&lt;/code&gt; for star symbols, use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\ast&lt;/code&gt; instead.&lt;/li&gt;
+  &lt;li&gt;If you wanna type &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\\&lt;/code&gt;, type &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\\\\&lt;/code&gt; instead.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If you wanna type an inline matrix, e.g., $[A]=\begin{bmatrix}1 &amp;amp; 2 \\ 2 &amp;amp; 3.999 \end{bmatrix}$, type like below,&lt;/p&gt;
+
+    &lt;div class=&quot;language-latex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;p&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\begin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;bmatrix&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\\\\&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;999&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\end&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;bmatrix&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;$&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;In order to use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\label{}&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\eqref{}&lt;/code&gt; like in latex, use&lt;/p&gt;
+
+    &lt;div class=&quot;language-latex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\begin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;align&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\tag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\label&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;eq&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;
+  x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;n &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;n &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; z&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;n
+  &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\end&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;align&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt;
+	
+  Call again equation &lt;span class=&quot;p&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\eqref&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;eq&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}$&lt;/span&gt;.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;p&gt;which gives&lt;/p&gt;
+
+\[\begin{align}\tag{1}\label{eq1}
+  x^n + y^n = z^n
+  \end{align}\]
+
+    &lt;p&gt;Call again equation $\eqref{eq1}$.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You don’t need an enviroment &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;align&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;equation&lt;/code&gt; to use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\label&lt;/code&gt;, you can use it with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$$&lt;/code&gt; only, for example,&lt;/p&gt;
+
+    &lt;div class=&quot;language-latex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;
+  x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;n &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;n &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; z&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;n &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\tag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\label&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;eq&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt;
+	
+  Call again equation &lt;span class=&quot;p&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\eqref&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;eq&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}$&lt;/span&gt;.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;boxes&quot;&gt;Boxes&lt;/h2&gt;
+
+&lt;h3 id=&quot;theorem-boxes&quot;&gt;Theorem boxes&lt;/h3&gt;
+
+&lt;div class=&quot;row d-flex&quot;&gt;
+  &lt;div class=&quot;col s12 l6&quot;&gt;
+
+    &lt;p&gt;Use these lines of code&lt;/p&gt;
+
+    &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;thi-box&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;box-title&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+**Title**
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;box-content&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+Content
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+  &lt;/div&gt;
+  &lt;div class=&quot;col s12 l6&quot;&gt;
+
+    &lt;p&gt;which give&lt;/p&gt;
+
+    &lt;div class=&quot;thi-box&quot;&gt;
+      &lt;div class=&quot;box-title&quot;&gt;
+        &lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;box-content&quot;&gt;
+        &lt;p&gt;Content&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;notification-boxes&quot;&gt;Notification boxes&lt;/h3&gt;
+
+&lt;div class=&quot;row d-flex&quot;&gt;
+  &lt;div class=&quot;col s12 l8&quot;&gt;
+
+    &lt;p&gt;Use these lines of code&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% include warning.html content=&quot;Warning's content&quot; %}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+  &lt;/div&gt;
+  &lt;div class=&quot;col s12 l4&quot;&gt;
+
+    &lt;p&gt;which give&lt;/p&gt;
+
+    &lt;p class=&quot;thi-warning&quot;&gt;&lt;i class=&quot;material-icons mat-icon&quot;&gt;error&lt;/i&gt;Warning’s content&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row d-flex&quot;&gt;
+  &lt;div class=&quot;col s12 l8&quot;&gt;
+
+    &lt;p&gt;Use these lines of code&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% include tip.html content=&quot;Info's content&quot; %}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+  &lt;/div&gt;
+  &lt;div class=&quot;col s12 l4&quot;&gt;
+
+    &lt;p&gt;which give&lt;/p&gt;
+
+    &lt;p class=&quot;thi-tip&quot;&gt;&lt;i class=&quot;material-icons mat-icon&quot;&gt;info&lt;/i&gt;Info’s content&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;insert-hideshow-box&quot;&gt;Insert hide/show box&lt;/h3&gt;
+
+&lt;div class=&quot;row d-flex&quot;&gt;
+  &lt;div class=&quot;col s12 l6&quot;&gt;
+
+    &lt;p&gt;Use these lines of code&lt;/p&gt;
+
+    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;collapsible&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-collapsible=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;accordion&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;collapsible-header&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;i&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;material-icons&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;face&lt;span class=&quot;nt&quot;&gt;&amp;lt;/i&amp;gt;&lt;/span&gt;
+Title
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;collapsible-body&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+Content
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+  &lt;/div&gt;
+  &lt;div class=&quot;col s12 l6&quot;&gt;
+
+    &lt;p&gt;which give&lt;/p&gt;
+
+    &lt;ul class=&quot;collapsible&quot; data-collapsible=&quot;accordion&quot;&gt;
+&lt;li&gt;
+&lt;div class=&quot;collapsible-header&quot;&gt;
+          &lt;p&gt;&lt;i class=&quot;material-icons&quot;&gt;face&lt;/i&gt;
+Title&lt;/p&gt;
+        &lt;/div&gt;
+&lt;div class=&quot;collapsible-body&quot;&gt;
+          &lt;p&gt;Content&lt;/p&gt;
+        &lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;insert-blockquote&quot;&gt;Insert blockquote&lt;/h3&gt;
+
+&lt;p class=&quot;post-more-info&quot;&gt;
+The content of extra info of the post.
+&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;post-more-info&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+The content of extra info of the post.
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Other normal blockquote like this.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;insert-resume-of-the-post&quot;&gt;Insert resume of the post&lt;/h3&gt;
+
+&lt;div class=&quot;row d-flex&quot;&gt;
+  &lt;div class=&quot;col s12 l6&quot;&gt;
+
+    &lt;p&gt;Use these lines of code&lt;/p&gt;
+
+    &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;fieldset&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;field-set&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;markdown=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;legend&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;leg-title&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Title&lt;span class=&quot;nt&quot;&gt;&amp;lt;/legend&amp;gt;&lt;/span&gt;
+Content
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/fieldset&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+  &lt;/div&gt;
+  &lt;div class=&quot;col s12 l6&quot;&gt;
+
+    &lt;p&gt;which give&lt;/p&gt;
+
+    &lt;fieldset class=&quot;field-set&quot;&gt;
+      &lt;legend class=&quot;leg-title&quot;&gt;Title&lt;/legend&gt;
+      &lt;p&gt;Content&lt;/p&gt;
+    &lt;/fieldset&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;cat-tag&quot;&gt;Categories and tags&lt;/h2&gt;
+
+&lt;h3 id=&quot;use-it&quot;&gt;Use it&lt;/h3&gt;
+
+&lt;p&gt;On the front matter of each post, use this&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;categories: [maths, python] 
+tags: [algebra, function, theorem]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;create-a-new-category&quot;&gt;Create a new category&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Below the title of each post, you will see “in &lt;category&gt;&quot;, for example, this post **in NoteTheme**.&lt;/category&gt;&lt;/li&gt;
+  &lt;li&gt;Open file &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_data\categories.yml&lt;/code&gt; and add the new category you want
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;slug&lt;/code&gt;: the id of this category, it will appear in the url, like
+        &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  https://dinhanhthi.github.io/notetheme/categories#notetheme
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;name&lt;/code&gt; : the name of this catefory, it will appear on the site, like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;notetheme&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;already-defined-tags--categories&quot;&gt;Already-defined tags / categories&lt;/h3&gt;
+
+&lt;p&gt;Already-defined categories:&lt;/p&gt;
+
+&lt;div class=&quot;thi-columns&quot;&gt;
+&lt;ul&gt;
+
+&lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;notetheme&lt;/code&gt; : &lt;a href=&quot;/notetheme&quot;&gt;NoteTheme&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;it&lt;/code&gt; : &lt;a href=&quot;/it&quot;&gt;Information Technology&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+Already-defined tags: 
+
+&lt;code class=&quot;highlighter-rouge&quot;&gt;notetheme&lt;/code&gt;
+
+, 
+
+
+&lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll&lt;/code&gt;
+
+, 
+
+
+&lt;code class=&quot;highlighter-rouge&quot;&gt;theme&lt;/code&gt;
+
+, 
+
+
+&lt;code class=&quot;highlighter-rouge&quot;&gt;welcome&lt;/code&gt;
+
+.
+
+
+&lt;/p&gt;</content><author><name></name></author><category term="notetheme" /><category term="jekyll" /><category term="theme" /><category term="notetheme" /><summary type="html">In this tutorial, I suppose that you have already installed notetheme, just follow the ones you need and don’t forget to leave a comment below.</summary></entry><entry><title type="html">Some showcases with NoteTheme</title><link href="http://localhost:4000/notetheme/notetheme-showcase" rel="alternate" type="text/html" title="Some showcases with NoteTheme" /><published>2018-08-17T00:00:00-05:00</published><updated>2018-08-17T00:00:00-05:00</updated><id>http://localhost:4000/notetheme/notetheme-showcase</id><content type="html" xml:base="http://localhost:4000/notetheme/notetheme-showcase">&lt;p&gt;In this post, I will show you all of alread-defined components in NoteTheme so that you can use it in the fugure. If you have interests on some components, jut read &lt;strong&gt;&lt;a href=&quot;/notetheme/how-to-use-notetheme&quot;&gt;how to make it&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p class=&quot;thi-tip&quot;&gt;&lt;i class=&quot;material-icons mat-icon&quot;&gt;info&lt;/i&gt;I’m not a native English speaker, please ignore my bad expressions.&lt;/p&gt;
+
+&lt;fieldset class=&quot;field-set&quot;&gt;
+  &lt;legend class=&quot;leg-title&quot;&gt;TL;DR&lt;/legend&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;Show the post in a flexible way.&lt;/li&gt;
+    &lt;li&gt;Show the figures any place&lt;/li&gt;
+    &lt;li&gt;Show the maths, the code blocks in a beautiful way.&lt;/li&gt;
+    &lt;li&gt;and many things else…&lt;/li&gt;
+  &lt;/ul&gt;
+
+&lt;/fieldset&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A bloquequote will display like this. You can also use &lt;a href=&quot;https://materializecss.com/&quot;&gt;all designed components&lt;/a&gt; from Materialize if you want.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;insert-code--figures&quot;&gt;Insert code &amp;amp; figures&lt;/h2&gt;
+
+&lt;div class=&quot;row d-flex&quot;&gt;
+  &lt;div class=&quot;col s12 l6&quot;&gt;
+
+    &lt;p&gt;You can insert any code you want with the syntax highlight like below&lt;/p&gt;
+
+    &lt;div class=&quot;language-latex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;\documentclass&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;[12pt,a4paper]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;article&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\usepackage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;amsmath&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\usepackage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;amsfonts&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\usepackage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;amssymb&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\usepackage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;graphicx&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;\usepackage&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;[left=2cm,right=2cm,top=2cm,bottom=2cm]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;geometry&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+ 
+&lt;span class=&quot;nt&quot;&gt;\begin{document}&lt;/span&gt;
+
+This is an example of &lt;span class=&quot;k&quot;&gt;\LaTeX&lt;/span&gt; document, but you can use other language like C++, Python, Matlab,...
+
+&lt;span class=&quot;nt&quot;&gt;\end{document}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+  &lt;/div&gt;
+  &lt;div class=&quot;col s12 l6&quot;&gt;
+
+    &lt;p&gt;or something appears in the command line windows like this&lt;/p&gt;
+
+    &lt;div class=&quot;terminal&quot;&gt;
+$ sudo apt-get update
+&lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;You can even couple inseting a code block with a side-by-side figure like this&lt;/p&gt;
+
+&lt;div class=&quot;row d-flex&quot;&gt;
+  &lt;div class=&quot;col s12 l6&quot;&gt;
+    &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;matplotlib.pyplot&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;plot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;year&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col s12 l6&quot;&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/notetheme/images/posts/f1.svg&quot; alt=&quot;&quot; class=&quot;w-400 no-border&quot; /&gt;&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row d-flex&quot;&gt;
+  &lt;div class=&quot;col s12 l6&quot;&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/notetheme/images/posts/dog.png&quot; alt=&quot;&quot; class=&quot;w-300 no-border&quot; /&gt;&lt;/p&gt;
+
+  &lt;/div&gt;
+  &lt;div class=&quot;col s12 l6&quot;&gt;
+
+    &lt;p&gt;… or something like this, but on the right!&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Oh, I’m a very small dog &lt;img class=&quot;img-inline&quot; src=&quot;/notetheme/images/posts/dog-inline.png&quot; /&gt;  and I’m inline text.&lt;/strong&gt;&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;how-about-youtube-video&quot;&gt;How about Youtube video?&lt;/h2&gt;
+
+&lt;p&gt;You can insert any size of youtube container on the large screen,&lt;/p&gt;
+
+&lt;!-- &lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col 8&quot;&gt; --&gt;
+&lt;div class=&quot;div-center youtube-8 mt-2 mb-2&quot;&gt;
+    &lt;div class=&quot;video-container&quot;&gt;
+      &lt;iframe width=&quot;853&quot; height=&quot;480&quot; src=&quot;//www.youtube.com/embed/8f7eSJOHeYY&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;p&gt;&lt;!-- &lt;/div&gt;
+&lt;/div&gt; --&gt;&lt;/p&gt;
+
+&lt;p&gt;… or with smaller one&lt;/p&gt;
+
+&lt;!-- &lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col 4&quot;&gt; --&gt;
+&lt;div class=&quot;div-center youtube-4 mt-2 mb-2&quot;&gt;
+    &lt;div class=&quot;video-container&quot;&gt;
+      &lt;iframe width=&quot;853&quot; height=&quot;480&quot; src=&quot;//www.youtube.com/embed/8f7eSJOHeYY&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;p&gt;&lt;!-- &lt;/div&gt;
+&lt;/div&gt; --&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;make-an-interactive-coding-course-online&quot;&gt;Make an interactive coding course online&lt;/h2&gt;
+
+&lt;p&gt;You even can embed &lt;strong&gt;R/Python&lt;/strong&gt; code environment inside a post like this&lt;/p&gt;
+
+&lt;div class=&quot;mt-2 mb-2&quot; data-datacamp-exercise=&quot;&quot; data-lang=&quot;r&quot;&gt;
+	&lt;code data-type=&quot;pre-exercise-code&quot;&gt;
+		# This will get executed each time the exercise gets initialized
+		b = 6
+	&lt;/code&gt;
+	&lt;code data-type=&quot;sample-code&quot;&gt;
+		# Create a variable a, equal to 5
+		# Print out a
+	&lt;/code&gt;
+	&lt;code data-type=&quot;solution&quot;&gt;
+		# Create a variable a, equal to 5
+		a &amp;lt;- 5
+
+		# Print out a
+		print(a)
+	&lt;/code&gt;
+	&lt;code data-type=&quot;sct&quot;&gt;
+		test_object(&quot;a&quot;)
+		test_function(&quot;print&quot;)
+		success_msg(&quot;Great job!&quot;)
+	&lt;/code&gt;
+	&lt;div data-type=&quot;hint&quot;&gt;Use the assignment operator (&lt;code&gt;&amp;lt;-&lt;/code&gt;) to create the variable &lt;code&gt;a&lt;/code&gt;.&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;toc&quot;&gt;
+  &lt;div class=&quot;toc-title&quot;&gt;
+    &lt;i class=&quot;material-icons mat-icon&quot;&gt;toc&lt;/i&gt;&lt;span&gt;In this post&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;div id=&quot;full&quot;&gt;
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#insert-code--figures&quot; id=&quot;markdown-toc-insert-code--figures&quot;&gt;Insert code &amp;amp; figures&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#how-about-youtube-video&quot; id=&quot;markdown-toc-how-about-youtube-video&quot;&gt;How about Youtube video?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#make-an-interactive-coding-course-online&quot; id=&quot;markdown-toc-make-an-interactive-coding-course-online&quot;&gt;Make an interactive coding course online&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#play-with-content&quot; id=&quot;markdown-toc-play-with-content&quot;&gt;Play with content&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#for-mathematicians&quot; id=&quot;markdown-toc-for-mathematicians&quot;&gt;For mathematicians&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#how-can-you-make-a-post-like-this&quot; id=&quot;markdown-toc-how-can-you-make-a-post-like-this&quot;&gt;How can you make a post like this?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;play-with-content&quot;&gt;Play with content&lt;/h2&gt;
+
+&lt;div class=&quot;thi-columns&quot;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;/notetheme/how-to-use-notetheme&quot;&gt;How to use NoteTheme?&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/notetheme/welcome-to-notetheme&quot;&gt;Welcome to NoteTheme&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/notetheme/how-to-install-notetheme&quot;&gt;How to install NoteTheme&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://facebook.com/Math2IT&quot;&gt;Math2IT facebook fanpage&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://math2it.com&quot;&gt;Math2IT official website&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://www.facebook.com/groups/math2it/&quot;&gt;Math2IT group on facebook&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://dinhanhthi.com&quot;&gt;Đinh Anh Thi’s personal website&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;It will automatically become 1 colum if you see this post on a small screen device.&lt;/p&gt;
+
+&lt;p class=&quot;thi-tip&quot;&gt;&lt;i class=&quot;material-icons mat-icon&quot;&gt;info&lt;/i&gt;You can see that, you can put the table of contetnt in any place in the post.&lt;/p&gt;
+
+&lt;p&gt;If you have something too long and need to hide it in default, you can put it inside a hide/show box like this&lt;/p&gt;
+
+&lt;ul class=&quot;collapsible&quot; data-collapsible=&quot;accordion&quot;&gt;
+&lt;li&gt;
+&lt;div class=&quot;collapsible-header&quot;&gt;
+      &lt;p&gt;&lt;i class=&quot;material-icons&quot;&gt;face&lt;/i&gt;
+Click me to open the secret&lt;/p&gt;
+    &lt;/div&gt;
+&lt;div class=&quot;collapsible-body&quot;&gt;
+      &lt;p&gt;This is a very long content without meaning. This is a very long content without meaning. This is a very long content without meaning. This is a very long content without meaning. This is a very long content without meaning. This is a very long content without meaning. This is a very long content without meaning. This is a very long content without meaning. This is a very long content without meaning.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p class=&quot;thi-warning&quot;&gt;&lt;i class=&quot;material-icons mat-icon&quot;&gt;error&lt;/i&gt;Don’t foget to share this theme with your friends!&lt;/p&gt;
+
+&lt;h2 id=&quot;for-mathematicians&quot;&gt;For mathematicians&lt;/h2&gt;
+
+&lt;p&gt;You can easily insert a math inside a post,&lt;/p&gt;
+
+\[\begin{align}\tag{1}\label{eq1}
+\begin{cases}
+x + 3y - z &amp;amp;= 5 \\
+2x +3z &amp;amp;= 7 \\
+y - 4z &amp;amp;= 8 
+\end{cases}
+\end{align}\]
+
+&lt;p&gt;You can even call $\eqref{eq1}$ again another place if you want.&lt;/p&gt;
+
+&lt;div class=&quot;thi-box&quot;&gt;
+  &lt;div class=&quot;box-title&quot;&gt;
+    &lt;p&gt;&lt;strong&gt;For a Theorem? No problem!&lt;/strong&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;box-content&quot;&gt;
+
+    &lt;p&gt;You have a very beautiful box for describing a theorem or definition.&lt;/p&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;how-can-you-make-a-post-like-this&quot;&gt;How can you make a post like this?&lt;/h2&gt;
+
+&lt;p class=&quot;post-more-info&quot;&gt;
+If you need something more, just let me know in the comment below this post!
+&lt;/p&gt;
+
+&lt;div class=&quot;thi-step&quot;&gt;
+&lt;div class=&quot;step&quot;&gt;
+&lt;div class=&quot;step-number&quot;&gt;
+&lt;/div&gt;
+&lt;div class=&quot;step-content&quot;&gt;
+      &lt;p&gt;Download &lt;a href=&quot;https://github.com/dinhanhthi/notetheme&quot;&gt;this theme&lt;/a&gt;.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;step&quot;&gt;
+&lt;div class=&quot;step-number&quot;&gt;
+&lt;/div&gt;
+&lt;div class=&quot;step-content&quot;&gt;
+      &lt;p&gt;Read &lt;a href=&quot;/notetheme/how-to-install-notetheme&quot;&gt;this link&lt;/a&gt; to know how to install it and create a new website for yourself.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;step&quot;&gt;
+&lt;div class=&quot;step-number&quot;&gt;
+&lt;/div&gt;
+&lt;div class=&quot;step-content&quot;&gt;
+      &lt;p&gt;Follow &lt;a href=&quot;/notetheme/how-to-use-notetheme&quot;&gt;this link&lt;/a&gt; to make an awesome post like this one.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Just use &lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;C&lt;/kbd&gt; to copy and paste shortcodes defined in NoteTheme.&lt;/p&gt;
+
+&lt;div class=&quot;thi-more&quot;&gt;
+	&lt;i class=&quot;material-icons&quot;&gt;keyboard_arrow_right&lt;/i&gt;
+	&lt;a href=&quot;https://dinhanhthi.github.io/NoteTheme/welcome-to-notetheme&quot;&gt;Thank you and let’s start!&lt;/a&gt;.
+&lt;/div&gt;</content><author><name></name></author><category term="notetheme" /><category term="jekyll" /><category term="theme" /><category term="notetheme" /><summary type="html">In this post, I will show you all of alread-defined components in NoteTheme so that you can use it in the fugure. If you have interests on some components, jut read how to make it.</summary></entry><entry><title type="html">Welcome to NoteTheme</title><link href="http://localhost:4000/notetheme/welcome-to-notetheme" rel="alternate" type="text/html" title="Welcome to NoteTheme" /><published>2018-08-17T00:00:00-05:00</published><updated>2018-08-17T00:00:00-05:00</updated><id>http://localhost:4000/notetheme/welcome-to-notetheme</id><content type="html" xml:base="http://localhost:4000/notetheme/welcome-to-notetheme">&lt;p&gt;This theme is folked from &lt;a href=&quot;https://shawnteoh.github.io/matjek/&quot;&gt;Matjek theme&lt;/a&gt; which is based on &lt;a href=&quot;https://materializecss.com/&quot;&gt;materializecss&lt;/a&gt; framework.&lt;/p&gt;
+
+&lt;p&gt;I have modified a lot from Matjek so that we have this theme for &lt;strong&gt;the only purpose of note-taking&lt;/strong&gt;. This theme is designed for ones who work much on &lt;strong&gt;Maths and Code&lt;/strong&gt; with a lot of useful components.&lt;/p&gt;
+
+&lt;div class=&quot;thi-more&quot;&gt;
+	&lt;i class=&quot;material-icons&quot;&gt;keyboard_arrow_right&lt;/i&gt;
+	&lt;a href=&quot;https://dinhanhthi.github.io/notetheme/notetheme-showcase&quot;&gt;Take a look with some showcases!&lt;/a&gt;.
+&lt;/div&gt;
+
+&lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Clean &amp;amp; &lt;strong&gt;Simple&lt;/strong&gt; &amp;amp; &lt;strong&gt;Beautiful&lt;/strong&gt; (see &lt;a href=&quot;https://dinhanhthi.github.io/notetheme/&quot;&gt;demo&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Full supports and &lt;strong&gt;frequently update&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Support a lot of useful &lt;strong&gt;components for taking notes&lt;/strong&gt; (see &lt;a href=&quot;/notetheme/how-to-use-notetheme&quot;&gt;full list&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Display &lt;strong&gt;Table of Contents&lt;/strong&gt; automatically on a fix sidebar (and on the post content)&lt;/li&gt;
+  &lt;li&gt;Integrate &lt;strong&gt;&lt;a href=&quot;http://disqus.com&quot;&gt;disqus&lt;/a&gt;&lt;/strong&gt; comment system.&lt;/li&gt;
+  &lt;li&gt;Integrate &lt;strong&gt;&lt;a href=&quot;https://www.mathjax.org/&quot;&gt;Mathjax&lt;/a&gt;&lt;/strong&gt; which supports typing math equations.&lt;/li&gt;
+  &lt;li&gt;Integrate &lt;strong&gt;&lt;a href=&quot;https://github.com/datacamp/datacamp-light&quot;&gt;DataCamp Light&lt;/a&gt;&lt;/strong&gt; which supports embedding side-by-side Python/R code enviroment (see &lt;a href=&quot;https://cdn.datacamp.com/dcl-react/standalone-example.html&quot;&gt;demo&lt;/a&gt; for this)&lt;/li&gt;
+  &lt;li&gt;Supoort &lt;strong&gt;search&lt;/strong&gt; on site quickly (&lt;a href=&quot;/notetheme/search?q=welcome&quot;&gt;demo&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Support &lt;strong&gt;tags and categories&lt;/strong&gt; for posts.&lt;/li&gt;
+  &lt;li&gt;Mobile friendly&lt;/li&gt;
+  &lt;li&gt;Search engine friendly&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Invisible&lt;/strong&gt; option : make your site invisible to search engines&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;how-to-install&quot;&gt;How to install&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Download from &lt;a href=&quot;https://github.com/dinhanhthi/notetheme&quot;&gt;Github repository&lt;/a&gt;. Please change to branch &lt;strong&gt;gh-pages&lt;/strong&gt; to see the whole code files.&lt;/li&gt;
+  &lt;li&gt;Follow &lt;a href=&quot;/notetheme/how-to-install-notetheme&quot;&gt;this instruction&lt;/a&gt; carefully. I show you &lt;strong&gt;from the beginning&lt;/strong&gt; how to create a github page with jekyll and then to apply NoteTheme and use it.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;how-to-use-it&quot;&gt;How to use it?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Folow &lt;a href=&quot;/notetheme/how-to-use-notetheme&quot;&gt;this instruction&lt;/a&gt; carefully.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;contact--support&quot;&gt;Contact &amp;amp; support&lt;/h2&gt;
+
+&lt;p&gt;Email me at: &lt;a href=&quot;http://disqus.com&quot;&gt;dinhanhthimail@gmail.com&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="notetheme" /><category term="notetheme" /><category term="jekyll" /><category term="theme" /><category term="welcome" /><summary type="html">This theme is folked from Matjek theme which is based on materializecss framework.</summary></entry></feed>
