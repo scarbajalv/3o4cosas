@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/notetheme/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/notetheme/" rel="alternate" type="text/html" /><updated>2022-03-03T14:51:25-05:00</updated><id>http://localhost:4000/notetheme/feed.xml</id><title type="html">NoteTheme</title><subtitle>You cannot remember everything.</subtitle><entry><title type="html">Shortcuts for editors</title><link href="http://localhost:4000/notetheme/shortcuts-for-editors" rel="alternate" type="text/html" title="Shortcuts for editors" /><published>2018-10-08T00:00:00-05:00</published><updated>2018-10-08T00:00:00-05:00</updated><id>http://localhost:4000/notetheme/shortcuts-for-editors</id><content type="html" xml:base="http://localhost:4000/notetheme/shortcuts-for-editors">&lt;p&gt;This post is only for editors, please read other posts.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/3o4cosas/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/3o4cosas/" rel="alternate" type="text/html" /><updated>2022-03-03T15:18:51-05:00</updated><id>http://localhost:4000/3o4cosas/feed.xml</id><title type="html">NoteTheme</title><subtitle>You cannot remember everything.</subtitle><entry><title type="html">Shortcuts for editors</title><link href="http://localhost:4000/3o4cosas/shortcuts-for-editors" rel="alternate" type="text/html" title="Shortcuts for editors" /><published>2018-10-08T00:00:00-05:00</published><updated>2018-10-08T00:00:00-05:00</updated><id>http://localhost:4000/3o4cosas/shortcuts-for-editors</id><content type="html" xml:base="http://localhost:4000/3o4cosas/shortcuts-for-editors">&lt;p&gt;This post is only for editors, please read other posts.&lt;/p&gt;
 
 &lt;div id=&quot;toc&quot;&gt;
   &lt;div class=&quot;toc-title&quot;&gt;
@@ -245,7 +245,7 @@ Content in step 2
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="it" /><category term="jekyll" /><category term="notetheme" /><summary type="html">This post is only for editors, please read other posts.</summary></entry><entry><title type="html">How to install notetheme</title><link href="http://localhost:4000/notetheme/how-to-install-notetheme" rel="alternate" type="text/html" title="How to install notetheme" /><published>2018-08-17T00:00:00-05:00</published><updated>2018-08-17T00:00:00-05:00</updated><id>http://localhost:4000/notetheme/how-to-install-notetheme</id><content type="html" xml:base="http://localhost:4000/notetheme/how-to-install-notetheme">&lt;p&gt;In this tutorial, I suppose that you are new to &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt; and &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;, just follow the ones you need and don’t forget to leave a comment below.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="it" /><category term="jekyll" /><category term="notetheme" /><summary type="html">This post is only for editors, please read other posts.</summary></entry><entry><title type="html">How to install notetheme</title><link href="http://localhost:4000/3o4cosas/how-to-install-notetheme" rel="alternate" type="text/html" title="How to install notetheme" /><published>2018-08-17T00:00:00-05:00</published><updated>2018-08-17T00:00:00-05:00</updated><id>http://localhost:4000/3o4cosas/how-to-install-notetheme</id><content type="html" xml:base="http://localhost:4000/3o4cosas/how-to-install-notetheme">&lt;p&gt;In this tutorial, I suppose that you are new to &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt; and &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;, just follow the ones you need and don’t forget to leave a comment below.&lt;/p&gt;
 
 &lt;p class=&quot;thi-tip&quot;&gt;&lt;i class=&quot;material-icons mat-icon&quot;&gt;info&lt;/i&gt;I’m not a native English speaker, please ignore my bad expressions.&lt;/p&gt;
 
@@ -326,11 +326,11 @@ Content in step 2
 
 &lt;ul&gt;
   &lt;li&gt;If you have some unexpected errors, please tell me on the comment section below.&lt;/li&gt;
-  &lt;li&gt;If you wanna config more on this theme, please read &lt;a href=&quot;/notetheme/how-to-use-notetheme&quot;&gt;How to use notetheme&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;If you wanna config more on this theme, please read &lt;a href=&quot;/3o4cosas/how-to-use-notetheme&quot;&gt;How to use notetheme&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;If you find something wrong on this post, please tell me to fix them.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Thank you and good luck.&lt;/p&gt;</content><author><name></name></author><category term="notetheme" /><category term="notetheme" /><category term="jekyll" /><category term="theme" /><summary type="html">In this tutorial, I suppose that you are new to Github Pages and Jekyll, just follow the ones you need and don’t forget to leave a comment below.</summary></entry><entry><title type="html">How to use NoteTheme</title><link href="http://localhost:4000/notetheme/how-to-use-notetheme" rel="alternate" type="text/html" title="How to use NoteTheme" /><published>2018-08-17T00:00:00-05:00</published><updated>2018-08-17T00:00:00-05:00</updated><id>http://localhost:4000/notetheme/how-to-use-notetheme</id><content type="html" xml:base="http://localhost:4000/notetheme/how-to-use-notetheme">&lt;p&gt;In this tutorial, I suppose that you have already &lt;a href=&quot;/notetheme/how-to-install-notetheme&quot;&gt;installed notetheme&lt;/a&gt;, just follow the ones you need and don’t forget to leave a comment below.&lt;/p&gt;
+&lt;p&gt;Thank you and good luck.&lt;/p&gt;</content><author><name></name></author><category term="notetheme" /><category term="notetheme" /><category term="jekyll" /><category term="theme" /><summary type="html">In this tutorial, I suppose that you are new to Github Pages and Jekyll, just follow the ones you need and don’t forget to leave a comment below.</summary></entry><entry><title type="html">How to use NoteTheme</title><link href="http://localhost:4000/3o4cosas/how-to-use-notetheme" rel="alternate" type="text/html" title="How to use NoteTheme" /><published>2018-08-17T00:00:00-05:00</published><updated>2018-08-17T00:00:00-05:00</updated><id>http://localhost:4000/3o4cosas/how-to-use-notetheme</id><content type="html" xml:base="http://localhost:4000/3o4cosas/how-to-use-notetheme">&lt;p&gt;In this tutorial, I suppose that you have already &lt;a href=&quot;/3o4cosas/how-to-install-notetheme&quot;&gt;installed notetheme&lt;/a&gt;, just follow the ones you need and don’t forget to leave a comment below.&lt;/p&gt;
 
 &lt;p class=&quot;thi-tip&quot;&gt;&lt;i class=&quot;material-icons mat-icon&quot;&gt;info&lt;/i&gt;I’m not a native English speaker, please ignore my bad expressions.&lt;/p&gt;
 
@@ -1014,7 +1014,7 @@ Already-defined tags:
 .
 
 
-&lt;/p&gt;</content><author><name></name></author><category term="notetheme" /><category term="jekyll" /><category term="theme" /><category term="notetheme" /><summary type="html">In this tutorial, I suppose that you have already installed notetheme, just follow the ones you need and don’t forget to leave a comment below.</summary></entry><entry><title type="html">Some showcases with NoteTheme</title><link href="http://localhost:4000/notetheme/notetheme-showcase" rel="alternate" type="text/html" title="Some showcases with NoteTheme" /><published>2018-08-17T00:00:00-05:00</published><updated>2018-08-17T00:00:00-05:00</updated><id>http://localhost:4000/notetheme/notetheme-showcase</id><content type="html" xml:base="http://localhost:4000/notetheme/notetheme-showcase">&lt;p&gt;In this post, I will show you all of alread-defined components in NoteTheme so that you can use it in the fugure. If you have interests on some components, jut read &lt;strong&gt;&lt;a href=&quot;/notetheme/how-to-use-notetheme&quot;&gt;how to make it&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+&lt;/p&gt;</content><author><name></name></author><category term="notetheme" /><category term="jekyll" /><category term="theme" /><category term="notetheme" /><summary type="html">In this tutorial, I suppose that you have already installed notetheme, just follow the ones you need and don’t forget to leave a comment below.</summary></entry><entry><title type="html">Some showcases with NoteTheme</title><link href="http://localhost:4000/3o4cosas/notetheme-showcase" rel="alternate" type="text/html" title="Some showcases with NoteTheme" /><published>2018-08-17T00:00:00-05:00</published><updated>2018-08-17T00:00:00-05:00</updated><id>http://localhost:4000/3o4cosas/notetheme-showcase</id><content type="html" xml:base="http://localhost:4000/3o4cosas/notetheme-showcase">&lt;p&gt;LALALALAL In this post, I will show you all of alread-defined components in NoteTheme so that you can use it in the fugure. If you have interests on some components, jut read &lt;strong&gt;&lt;a href=&quot;/3o4cosas/how-to-use-notetheme&quot;&gt;how to make it&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p class=&quot;thi-tip&quot;&gt;&lt;i class=&quot;material-icons mat-icon&quot;&gt;info&lt;/i&gt;I’m not a native English speaker, please ignore my bad expressions.&lt;/p&gt;
 
@@ -1078,7 +1078,7 @@ $ sudo apt-get update
   &lt;/div&gt;
   &lt;div class=&quot;col s12 l6&quot;&gt;
 
-    &lt;p&gt;&lt;img src=&quot;/notetheme/images/posts/f1.svg&quot; alt=&quot;&quot; class=&quot;w-400 no-border&quot; /&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;img src=&quot;/3o4cosas/images/posts/f1.svg&quot; alt=&quot;&quot; class=&quot;w-400 no-border&quot; /&gt;&lt;/p&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1086,14 +1086,14 @@ $ sudo apt-get update
 &lt;div class=&quot;row d-flex&quot;&gt;
   &lt;div class=&quot;col s12 l6&quot;&gt;
 
-    &lt;p&gt;&lt;img src=&quot;/notetheme/images/posts/dog.png&quot; alt=&quot;&quot; class=&quot;w-300 no-border&quot; /&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;img src=&quot;/3o4cosas/images/posts/dog.png&quot; alt=&quot;&quot; class=&quot;w-300 no-border&quot; /&gt;&lt;/p&gt;
 
   &lt;/div&gt;
   &lt;div class=&quot;col s12 l6&quot;&gt;
 
     &lt;p&gt;… or something like this, but on the right!&lt;/p&gt;
 
-    &lt;p&gt;&lt;strong&gt;Oh, I’m a very small dog &lt;img class=&quot;img-inline&quot; src=&quot;/notetheme/images/posts/dog-inline.png&quot; /&gt;  and I’m inline text.&lt;/strong&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Oh, I’m a very small dog &lt;img class=&quot;img-inline&quot; src=&quot;/3o4cosas/images/posts/dog-inline.png&quot; /&gt;  and I’m inline text.&lt;/strong&gt;&lt;/p&gt;
 
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1173,9 +1173,9 @@ $ sudo apt-get update
 
 &lt;div class=&quot;thi-columns&quot;&gt;
   &lt;ul&gt;
-    &lt;li&gt;&lt;a href=&quot;/notetheme/how-to-use-notetheme&quot;&gt;How to use NoteTheme?&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/notetheme/welcome-to-notetheme&quot;&gt;Welcome to NoteTheme&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;/notetheme/how-to-install-notetheme&quot;&gt;How to install NoteTheme&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/3o4cosas/how-to-use-notetheme&quot;&gt;How to use NoteTheme?&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/3o4cosas/welcome-to-notetheme&quot;&gt;Welcome to NoteTheme&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;/3o4cosas/how-to-install-notetheme&quot;&gt;How to install NoteTheme&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;https://facebook.com/Math2IT&quot;&gt;Math2IT facebook fanpage&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;http://math2it.com&quot;&gt;Math2IT official website&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;https://www.facebook.com/groups/math2it/&quot;&gt;Math2IT group on facebook&lt;/a&gt;&lt;/li&gt;
@@ -1247,7 +1247,7 @@ If you need something more, just let me know in the comment below this post!
 &lt;div class=&quot;step-number&quot;&gt;
 &lt;/div&gt;
 &lt;div class=&quot;step-content&quot;&gt;
-      &lt;p&gt;Read &lt;a href=&quot;/notetheme/how-to-install-notetheme&quot;&gt;this link&lt;/a&gt; to know how to install it and create a new website for yourself.&lt;/p&gt;
+      &lt;p&gt;Read &lt;a href=&quot;/3o4cosas/how-to-install-notetheme&quot;&gt;this link&lt;/a&gt; to know how to install it and create a new website for yourself.&lt;/p&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 
@@ -1255,7 +1255,7 @@ If you need something more, just let me know in the comment below this post!
 &lt;div class=&quot;step-number&quot;&gt;
 &lt;/div&gt;
 &lt;div class=&quot;step-content&quot;&gt;
-      &lt;p&gt;Follow &lt;a href=&quot;/notetheme/how-to-use-notetheme&quot;&gt;this link&lt;/a&gt; to make an awesome post like this one.&lt;/p&gt;
+      &lt;p&gt;Follow &lt;a href=&quot;/3o4cosas/how-to-use-notetheme&quot;&gt;this link&lt;/a&gt; to make an awesome post like this one.&lt;/p&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1265,7 +1265,7 @@ If you need something more, just let me know in the comment below this post!
 &lt;div class=&quot;thi-more&quot;&gt;
 	&lt;i class=&quot;material-icons&quot;&gt;keyboard_arrow_right&lt;/i&gt;
 	&lt;a href=&quot;https://dinhanhthi.github.io/NoteTheme/welcome-to-notetheme&quot;&gt;Thank you and let’s start!&lt;/a&gt;.
-&lt;/div&gt;</content><author><name></name></author><category term="notetheme" /><category term="jekyll" /><category term="theme" /><category term="notetheme" /><summary type="html">In this post, I will show you all of alread-defined components in NoteTheme so that you can use it in the fugure. If you have interests on some components, jut read how to make it.</summary></entry><entry><title type="html">Welcome to NoteTheme</title><link href="http://localhost:4000/notetheme/welcome-to-notetheme" rel="alternate" type="text/html" title="Welcome to NoteTheme" /><published>2018-08-17T00:00:00-05:00</published><updated>2018-08-17T00:00:00-05:00</updated><id>http://localhost:4000/notetheme/welcome-to-notetheme</id><content type="html" xml:base="http://localhost:4000/notetheme/welcome-to-notetheme">&lt;p&gt;This theme is folked from &lt;a href=&quot;https://shawnteoh.github.io/matjek/&quot;&gt;Matjek theme&lt;/a&gt; which is based on &lt;a href=&quot;https://materializecss.com/&quot;&gt;materializecss&lt;/a&gt; framework.&lt;/p&gt;
+&lt;/div&gt;</content><author><name></name></author><category term="notetheme" /><category term="jekyll" /><category term="theme" /><category term="notetheme" /><summary type="html">LALALALAL In this post, I will show you all of alread-defined components in NoteTheme so that you can use it in the fugure. If you have interests on some components, jut read how to make it.</summary></entry><entry><title type="html">Welcome to NoteTheme</title><link href="http://localhost:4000/3o4cosas/welcome-to-notetheme" rel="alternate" type="text/html" title="Welcome to NoteTheme" /><published>2018-08-17T00:00:00-05:00</published><updated>2018-08-17T00:00:00-05:00</updated><id>http://localhost:4000/3o4cosas/welcome-to-notetheme</id><content type="html" xml:base="http://localhost:4000/3o4cosas/welcome-to-notetheme">&lt;p&gt;This theme is folked from &lt;a href=&quot;https://shawnteoh.github.io/matjek/&quot;&gt;Matjek theme&lt;/a&gt; which is based on &lt;a href=&quot;https://materializecss.com/&quot;&gt;materializecss&lt;/a&gt; framework.&lt;/p&gt;
 
 &lt;p&gt;I have modified a lot from Matjek so that we have this theme for &lt;strong&gt;the only purpose of note-taking&lt;/strong&gt;. This theme is designed for ones who work much on &lt;strong&gt;Maths and Code&lt;/strong&gt; with a lot of useful components.&lt;/p&gt;
 
@@ -1279,12 +1279,12 @@ If you need something more, just let me know in the comment below this post!
 &lt;ul&gt;
   &lt;li&gt;Clean &amp;amp; &lt;strong&gt;Simple&lt;/strong&gt; &amp;amp; &lt;strong&gt;Beautiful&lt;/strong&gt; (see &lt;a href=&quot;https://dinhanhthi.github.io/notetheme/&quot;&gt;demo&lt;/a&gt;)&lt;/li&gt;
   &lt;li&gt;Full supports and &lt;strong&gt;frequently update&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Support a lot of useful &lt;strong&gt;components for taking notes&lt;/strong&gt; (see &lt;a href=&quot;/notetheme/how-to-use-notetheme&quot;&gt;full list&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Support a lot of useful &lt;strong&gt;components for taking notes&lt;/strong&gt; (see &lt;a href=&quot;/3o4cosas/how-to-use-notetheme&quot;&gt;full list&lt;/a&gt;)&lt;/li&gt;
   &lt;li&gt;Display &lt;strong&gt;Table of Contents&lt;/strong&gt; automatically on a fix sidebar (and on the post content)&lt;/li&gt;
   &lt;li&gt;Integrate &lt;strong&gt;&lt;a href=&quot;http://disqus.com&quot;&gt;disqus&lt;/a&gt;&lt;/strong&gt; comment system.&lt;/li&gt;
   &lt;li&gt;Integrate &lt;strong&gt;&lt;a href=&quot;https://www.mathjax.org/&quot;&gt;Mathjax&lt;/a&gt;&lt;/strong&gt; which supports typing math equations.&lt;/li&gt;
   &lt;li&gt;Integrate &lt;strong&gt;&lt;a href=&quot;https://github.com/datacamp/datacamp-light&quot;&gt;DataCamp Light&lt;/a&gt;&lt;/strong&gt; which supports embedding side-by-side Python/R code enviroment (see &lt;a href=&quot;https://cdn.datacamp.com/dcl-react/standalone-example.html&quot;&gt;demo&lt;/a&gt; for this)&lt;/li&gt;
-  &lt;li&gt;Supoort &lt;strong&gt;search&lt;/strong&gt; on site quickly (&lt;a href=&quot;/notetheme/search?q=welcome&quot;&gt;demo&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Supoort &lt;strong&gt;search&lt;/strong&gt; on site quickly (&lt;a href=&quot;/3o4cosas/search?q=welcome&quot;&gt;demo&lt;/a&gt;)&lt;/li&gt;
   &lt;li&gt;Support &lt;strong&gt;tags and categories&lt;/strong&gt; for posts.&lt;/li&gt;
   &lt;li&gt;Mobile friendly&lt;/li&gt;
   &lt;li&gt;Search engine friendly&lt;/li&gt;
@@ -1295,13 +1295,13 @@ If you need something more, just let me know in the comment below this post!
 
 &lt;ul&gt;
   &lt;li&gt;Download from &lt;a href=&quot;https://github.com/dinhanhthi/notetheme&quot;&gt;Github repository&lt;/a&gt;. Please change to branch &lt;strong&gt;gh-pages&lt;/strong&gt; to see the whole code files.&lt;/li&gt;
-  &lt;li&gt;Follow &lt;a href=&quot;/notetheme/how-to-install-notetheme&quot;&gt;this instruction&lt;/a&gt; carefully. I show you &lt;strong&gt;from the beginning&lt;/strong&gt; how to create a github page with jekyll and then to apply NoteTheme and use it.&lt;/li&gt;
+  &lt;li&gt;Follow &lt;a href=&quot;/3o4cosas/how-to-install-notetheme&quot;&gt;this instruction&lt;/a&gt; carefully. I show you &lt;strong&gt;from the beginning&lt;/strong&gt; how to create a github page with jekyll and then to apply NoteTheme and use it.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;how-to-use-it&quot;&gt;How to use it?&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Folow &lt;a href=&quot;/notetheme/how-to-use-notetheme&quot;&gt;this instruction&lt;/a&gt; carefully.&lt;/li&gt;
+  &lt;li&gt;Folow &lt;a href=&quot;/3o4cosas/how-to-use-notetheme&quot;&gt;this instruction&lt;/a&gt; carefully.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;contact--support&quot;&gt;Contact &amp;amp; support&lt;/h2&gt;
